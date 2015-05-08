@@ -1,0 +1,14 @@
+//color scheme
+$primary-color: #0971B2; //dark blue
+$secondary-color: #1485CC; //lighter blue
+$gray: #848584; //light gray
+
+//Font declarations
+$heading-font: "freight-sans-pro", "serif";
+$body-font: "proxima-nova", "sans-serif";
+
+//extends
+%margin-reset {
+	padding: 0;
+	margin: 0;
+}

@@ -1,0 +1,31 @@
+---
+# front matter here is required
+---
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        'includes'
+;
+
+html, body {
+	@extend %margin-reset;
+	font-size: 16px;
+}
+
+nav {
+	text-decoration: none;
+	background-color: $primary-color;
+	.title {
+		font-family: $heading-font;
+		font-size: 2em;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+		padding: 20px;
+	}
+	a{
+		text-decoration:none;
+		color: white;
+	}
+	
+}

@@ -1,0 +1,37 @@
+.post-list {
+    margin: 0 auto;
+    width: 70%;
+    li {
+        width: 90%;
+        margin: 2.5% auto;
+        display: inline-block;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 0 8px #616161;
+        h2 {
+            font-size: 2em;
+            margin-top: .2em;
+            margin-bottom: .1em;
+        }
+        .excerpt {
+        	margin-bottom: 2.5em;
+        }
+        a {
+	        text-decoration: none;
+	        &:visited {
+	            color: black;
+	        }
+	        .square-button {
+        	border: 1px solid $secondary-color;
+        	padding: .5em;
+        	color: $secondary-color;
+        	@include border-radius(5px);
+        		&:hover {
+        			@include transition-effect(400ms);
+        			color: white;
+        			background-color: $secondary-color;
+        		}
+        	}
+    	}
+    }
+}

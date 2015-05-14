@@ -4,16 +4,15 @@ permalink: /blog/
 layout: page
 ---
 
-<h1 class="page-heading">Blog Posts</h1>
-
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories['blog'] %}
       <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+          <h2>{{ post.title }}</h2>
+          <time datetime="{{ post.date }}">{{post.date | date: "%b %-d, %Y" }}</time>
+          <p class="excerpt">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+          <a href="{{ post.url | prepend: site.baseurl}}">
+            <span class="square-button">Click to read more</span>
+          </a>
       </li>
     {% endfor %}
   </ul>

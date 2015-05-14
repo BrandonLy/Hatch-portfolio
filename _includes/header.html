@@ -1,9 +1,10 @@
 <header>
-  <nav>
-    <div class="logo"><img src="img/hatchmon.png"></div>
-      <li>
-        <a class="title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <nav class="desktop-navigation">
+      <li class="title">
+        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
       </li>
+    </div>
+    <ul>
     {% for page in site.pages %}
       {% if page.title %}
       <li>
@@ -11,7 +12,9 @@
       </li>
       {% endif %}
     {% endfor %}
+    </ul>
   </nav>
+  <div class="clear"></div>
 
 </header>
 

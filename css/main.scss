@@ -3,17 +3,32 @@
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        'includes'
+        'includes',
+        'blog',
+        'blog-post'
 ;
 
 html, body {
 	@extend %margin-reset;
 	font-size: 16px;
+	background-color: $gray;
+	font-family: $body-font;
 }
 
-nav {
+h1,h2,h3 {
+	font-family: $heading-font;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+nav.desktop-navigation {
 	text-decoration: none;
 	background-color: $primary-color;
+	text-align: left;
+	margin-bottom: 2em;
+	box-shadow: 0 2px 5px #616161;
 	.title {
 		font-family: $heading-font;
 		font-size: 2em;
@@ -23,9 +38,58 @@ nav {
 		display: inline-block;
 		padding: 20px;
 	}
+	
 	a{
 		text-decoration:none;
 		color: white;
 	}
-	
+	ul {
+		display: inline-block;
+		text-align: right;
+		float: right;
+	}
+}
+
+.clear {
+	clear: both;
+}
+
+.logo {
+		width: 180px;
+		text-align: right;
+}
+
+.home-card {
+	background-color: white;
+	@extend %margin-reset;
+	color: black;
+	width: 40%;
+	padding: 25px;
+	margin-left: 2.5%;
+	box-shadow: 0 0 8px #616161;
+}
+.image-link {
+	display: inline-block;
+	margin-top: 2.5%;
+	margin-left: 12.5%;
+}
+
+footer {
+	background-color: $secondary-color;
+	color: white;
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.page-heading {
+	font-family: $heading-font;
+	margin-left: 1.5em;
+}
+
+.post-title {
+	margin-left: .5em;
+}
+
+time {
+    font-weight: 100;
 }

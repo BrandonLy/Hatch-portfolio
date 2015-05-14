@@ -1,0 +1,120 @@
+html, body, .home-card {
+  padding: 0;
+  margin: 0; }
+
+.post-list {
+  margin: 0 auto;
+  width: 70%; }
+  .post-list li {
+    width: 90%;
+    margin: 2.5% auto;
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 8px #616161; }
+    .post-list li h2 {
+      font-size: 2em;
+      margin-top: .2em;
+      margin-bottom: .1em; }
+    .post-list li .excerpt {
+      margin-bottom: 2.5em; }
+    .post-list li a {
+      text-decoration: none; }
+      .post-list li a:visited {
+        color: black; }
+      .post-list li a .square-button {
+        border: 1px solid #1485CC;
+        padding: .5em;
+        color: #1485CC;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px; }
+        .post-list li a .square-button:hover {
+          transition: 400ms;
+          -moz-transtion: 400ms;
+          -o-transition: 400ms;
+          -webkit-transition: 400ms;
+          color: white;
+          background-color: #1485CC; }
+
+.post-header h1 {
+  margin-bottom: .1em;
+  font-size: 2.2em; }
+.post-header time {
+  margin-left: 1.3em; }
+
+.post-content {
+  margin: 0 auto;
+  width: 90%; }
+  .post-content p {
+    margin-bottom: 2.5em;
+    font-size: 1.1em; }
+
+html, body {
+  font-size: 16px;
+  background-color: #f1f1f1;
+  font-family: "proxima-nova", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "freight-sans-pro", serif; }
+
+h1 {
+  font-size: 2.2em; }
+
+nav.desktop-navigation {
+  text-decoration: none;
+  background-color: #0971B2;
+  text-align: left;
+  margin-bottom: 2em;
+  box-shadow: 0 2px 5px #616161; }
+  nav.desktop-navigation .title {
+    font-family: "freight-sans-pro", serif;
+    font-size: 2em; }
+  nav.desktop-navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px; }
+  nav.desktop-navigation a {
+    text-decoration: none;
+    color: white; }
+  nav.desktop-navigation ul {
+    display: inline-block;
+    text-align: right;
+    float: right; }
+
+.clear {
+  clear: both; }
+
+.logo {
+  width: 180px;
+  text-align: right; }
+
+.home-card {
+  background-color: white;
+  color: black;
+  width: 40%;
+  padding: 25px;
+  margin-left: 2.5%;
+  box-shadow: 0 0 8px #616161; }
+
+.image-link {
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-left: 12.5%; }
+
+footer {
+  background-color: #1485CC;
+  color: white;
+  padding: 20px;
+  font-size: 1.2em; }
+
+.page-heading {
+  font-family: "freight-sans-pro", serif;
+  margin-left: 1.5em; }
+
+.post-title {
+  margin-left: .5em; }
+
+time {
+  font-weight: 100; }

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brandon Hatch</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>brandonhatch.me/</link>
+    <atom:link href="brandonhatch.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 May 2015 16:24:47 -0700</pubDate>
+    <lastBuildDate>Thu, 14 May 2015 16:24:47 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>test portfolio</title>
+        <description>&lt;h2 id=&quot;theres-gonna-be-some-content-here&quot;&gt;There’s gonna be some content here&lt;/h2&gt;
+
+&lt;h1 id=&quot;like-real-content&quot;&gt;Like real content&lt;/h1&gt;
+
+&lt;p&gt;Like really real content&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 May 2015 00:00:00 -0700</pubDate>
+        <link>brandonhatch.me/portfolio/test-portfolio</link>
+        <guid isPermaLink="true">brandonhatch.me/portfolio/test-portfolio</guid>
+        
+        
+        <category>portfolio</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 3</title>
+        <description>&lt;p&gt;There’s more info&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2015 00:00:00 -0700</pubDate>
+        <link>brandonhatch.me/blog/Test-3</link>
+        <guid isPermaLink="true">brandonhatch.me/blog/Test-3</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 2</title>
+        <description>&lt;p&gt;Crushing riffs and soaring melodies rise from the ashes to once again bathe the world in fire. Slash is back, and he is on a mission.&lt;/p&gt;
+
+&lt;p&gt;With the recruited talents of rock band Alter Bridge’s venerable frontman Myles Kennedy (who has upheld the honor of best rock vocalist for the past two years consecutively), Slash is busting down the door of modern rock’s monotonous safety corner. All of the captivating, invigorating, and downright legendary guitar work his fans know and love has been resurrected, and it’s just how they remembered it.&lt;/p&gt;
+
+&lt;p&gt;The album features Slash’s iconic Les Paul tone with elements of rock, metal, blues, and contemporary genres — there’s something for everyone. The opening tracks give listeners a boost of adrenaline, with titles such as ‘Wicked Stone’ living up to the expectations they set, and then some. Kennedy’s vocal interjections speak legions of the group’s style, alternating between belting power and balladworthy melodicity. The interplay between lyrics and music is eruptively powerful, with Kennedy laying lines such as “Lay your arms down; let me in” on the 8-minute ensemble ‘Battleground’, all the while reciting lines of crass rock n’ roll poetry, like “She’s a shot of pain; she’s a drop dead paramore” on the ephemeral, heavy-hitting track ‘Automatic Overdrive’.&lt;/p&gt;
+
+&lt;p&gt;The music takes a more placid turn about midway through, with ‘Bent to Fly’ and ‘Too Far Gone,’ for example, offsetting the intense energy the album begins with. The band’s vernacular adopts a less superficial focus, discussing topics such as maturity, rebellion, and the pitfalls of human relationships, eventually ending on a more haunting note with ‘The Unholy’. The thematic side of songwriting is brought to light here, making the album as dynamic as its audience.&lt;/p&gt;
+
+&lt;p&gt;It can be deduced that Slash has yet to lay his ambitions to rest, despite the musical hiatus that had befallen him after his run with Guns N’ Roses. His latest work is an ignition switch; it creates just what its name implies: a flaming display of audible power that is sure to leave you Stone Blind.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 00:00:00 -0700</pubDate>
+        <link>brandonhatch.me/blog/Test-2</link>
+        <guid isPermaLink="true">brandonhatch.me/blog/Test-2</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Test 1</title>
+        <description>&lt;p&gt;Crushing riffs and soaring melodies rise from the ashes to once again bathe the world in fire. Slash is back, and he is on a mission.&lt;/p&gt;
+
+&lt;p&gt;With the recruited talents of rock band Alter Bridge’s venerable frontman Myles Kennedy (who has upheld the honor of best rock vocalist for the past two years consecutively), Slash is busting down the door of modern rock’s monotonous safety corner. All of the captivating, invigorating, and downright legendary guitar work his fans know and love has been resurrected, and it’s just how they remembered it.&lt;/p&gt;
+
+&lt;p&gt;The album features Slash’s iconic Les Paul tone with elements of rock, metal, blues, and contemporary genres — there’s something for everyone. The opening tracks give listeners a boost of adrenaline, with titles such as ‘Wicked Stone’ living up to the expectations they set, and then some. Kennedy’s vocal interjections speak legions of the group’s style, alternating between belting power and balladworthy melodicity. The interplay between lyrics and music is eruptively powerful, with Kennedy laying lines such as “Lay your arms down; let me in” on the 8-minute ensemble ‘Battleground’, all the while reciting lines of crass rock n’ roll poetry, like “She’s a shot of pain; she’s a drop dead paramore” on the ephemeral, heavy-hitting track ‘Automatic Overdrive’.&lt;/p&gt;
+
+&lt;p&gt;The music takes a more placid turn about midway through, with ‘Bent to Fly’ and ‘Too Far Gone,’ for example, offsetting the intense energy the album begins with. The band’s vernacular adopts a less superficial focus, discussing topics such as maturity, rebellion, and the pitfalls of human relationships, eventually ending on a more haunting note with ‘The Unholy’. The thematic side of songwriting is brought to light here, making the album as dynamic as its audience.&lt;/p&gt;
+
+&lt;p&gt;It can be deduced that Slash has yet to lay his ambitions to rest, despite the musical hiatus that had befallen him after his run with Guns N’ Roses. His latest work is an ignition switch; it creates just what its name implies: a flaming display of audible power that is sure to leave you Stone Blind.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 00:00:00 -0700</pubDate>
+        <link>brandonhatch.me/blog/Test-1</link>
+        <guid isPermaLink="true">brandonhatch.me/blog/Test-1</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>World on Fire</title>
+        <description>&lt;p&gt;Crushing riffs and soaring melodies rise from the ashes to once again bathe the world in fire. Slash is back, and he is on a mission.&lt;/p&gt;
+
+&lt;p&gt;With the recruited talents of rock band Alter Bridge’s venerable frontman Myles Kennedy (who has upheld the honor of best rock vocalist for the past two years consecutively), Slash is busting down the door of modern rock’s monotonous safety corner. All of the captivating, invigorating, and downright legendary guitar work his fans know and love has been resurrected, and it’s just how they remembered it.&lt;/p&gt;
+
+&lt;p&gt;The album features Slash’s iconic Les Paul tone with elements of rock, metal, blues, and contemporary genres — there’s something for everyone. The opening tracks give listeners a boost of adrenaline, with titles such as ‘Wicked Stone’ living up to the expectations they set, and then some. Kennedy’s vocal interjections speak legions of the group’s style, alternating between belting power and balladworthy melodicity. The interplay between lyrics and music is eruptively powerful, with Kennedy laying lines such as “Lay your arms down; let me in” on the 8-minute ensemble ‘Battleground’, all the while reciting lines of crass rock n’ roll poetry, like “She’s a shot of pain; she’s a drop dead paramore” on the ephemeral, heavy-hitting track ‘Automatic Overdrive’.&lt;/p&gt;
+
+&lt;p&gt;The music takes a more placid turn about midway through, with ‘Bent to Fly’ and ‘Too Far Gone,’ for example, offsetting the intense energy the album begins with. The band’s vernacular adopts a less superficial focus, discussing topics such as maturity, rebellion, and the pitfalls of human relationships, eventually ending on a more haunting note with ‘The Unholy’. The thematic side of songwriting is brought to light here, making the album as dynamic as its audience.&lt;/p&gt;
+
+&lt;p&gt;It can be deduced that Slash has yet to lay his ambitions to rest, despite the musical hiatus that had befallen him after his run with Guns N’ Roses. His latest work is an ignition switch; it creates just what its name implies: a flaming display of audible power that is sure to leave you Stone Blind.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Apr 2015 00:00:00 -0700</pubDate>
+        <link>brandonhatch.me/blog/World-On-Fire</link>
+        <guid isPermaLink="true">brandonhatch.me/blog/World-On-Fire</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

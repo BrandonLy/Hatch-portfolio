@@ -5,12 +5,26 @@
 @import
         'includes',
         'blog',
-        'blog-post'
+        'portfolio',
+        'showcase',
+        'icons'
 ;
+
+//Desktop Site
+
+@media screen and (min-width: 1081px) {
+	.mobile-navigation {
+		display: none;
+	}
+
+	.desktop-navigation {
+		display: inline-block;
+	}
+}
 
 html, body {
 	@extend %margin-reset;
-	font-size: 16px;
+	@include font-size(16px);
 	background-color: $gray;
 	font-family: $body-font;
 }
@@ -20,7 +34,7 @@ h1,h2,h3 {
 }
 
 h1 {
-	font-size: 2.2em;
+	@include font-size(25px);
 }
 
 nav.desktop-navigation {
@@ -29,6 +43,7 @@ nav.desktop-navigation {
 	text-align: left;
 	margin-bottom: 2em;
 	box-shadow: 0 2px 5px #616161;
+	min-width: 100%;
 	.title {
 		font-family: $heading-font;
 		font-size: 2em;
@@ -49,6 +64,9 @@ nav.desktop-navigation {
 		float: right;
 	}
 }
+p.about {
+	@include font-size(18px);
+}
 
 .clear {
 	clear: both;
@@ -60,14 +78,20 @@ nav.desktop-navigation {
 }
 
 .home-card {
-	background-color: white;
+	@include item-card(25px);
 	@extend %margin-reset;
-	color: black;
 	width: 40%;
-	padding: 25px;
 	margin-left: 2.5%;
-	box-shadow: 0 0 8px #616161;
+	display: inline-block;
 }
+
+.portrait {
+	display: inline-block;
+	width: 25%;
+	vertical-align: bottom;
+	margin-left: 20%;
+}
+
 .image-link {
 	display: inline-block;
 	margin-top: 2.5%;
@@ -92,4 +116,41 @@ footer {
 
 time {
     font-weight: 100;
+}
+
+
+//Mobile Site
+
+@media screen and (max-width: 1080px) {
+	.desktop-navigation {
+		display: none;
+	}
+
+	.portrait {
+		width: 40%;
+		margin-left: 5%;
+		vertical-align: top;
+	}
+
+	.mobile-navigation{
+		display: block;
+		min-width: 100%;
+		background-color: $primary-color;
+		a {
+			text-decoration: none;
+			color: white;
+			@include font-size(20px);
+			padding: 20px;
+			margin-top: 1em;
+		}
+		li {
+			list-style: none;
+		}
+	}
+
+	.image-links {
+		display: block;
+		min-width: 100%;
+		margin: 0 auto;
+	}
 }

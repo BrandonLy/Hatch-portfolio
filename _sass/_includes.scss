@@ -25,3 +25,21 @@ $body-font: "proxima-nova", sans-serif;
     -o-transition: $time;
 	-webkit-transition: $time;
 }
+
+@mixin item-card($padding) {
+	background-color: white;
+	color: black;
+	padding: $padding;
+	box-shadow: 0 0 8px #616161;
+}
+
+//From Colton's Toolkit https://github.com/coltonfitzgerald/coltons-toolkit
+
+@mixin font-size($size: 1.6) {
+    font-size: $size;
+    font-size: ($size / 16px) * 1rem;
+}
+
+@function em($target, $context: $base__font-size) {
+	@return ($target / $context) * 1em;
+}

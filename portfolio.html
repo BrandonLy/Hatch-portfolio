@@ -8,10 +8,11 @@ permalink: /portfolio/
 
 	<ul class="portfolio-list">
     {% for post in site.categories['portfolio'] %}
+    <a class="post-link" href="{{post.url | prepend: site.baseurl }}">
       <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+		<h2>{{ post.title }}</h2>
+        <span class='card-image'>{{ post.excerpt | truncatewords : 30 }}</span>
       </li>
+    </a>
     {% endfor %}
   </ul>

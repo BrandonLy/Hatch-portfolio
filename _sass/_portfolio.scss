@@ -1,0 +1,46 @@
+.portfolio-list {
+	min-width: 100%;
+		li {
+		vertical-align: middle;
+		list-style: none;
+		display: inline-block;
+		width: 23%;
+		margin: 2.5% 2.5%;
+		@include item-card (20px);
+		text-align: center;
+		a {
+			text-decoration: none;
+			color: black;
+			&:visited {
+				color: black;
+			}
+		}
+		.card-image {
+			img{
+				max-width: 100%;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.portfolio-item {
+	width: 80%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1080px) {
+	.portfolio-list {
+		li{
+			margin: 5% auto;
+			max-width: 100%;
+			display: block;
+			width: 50%;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}

@@ -7,9 +7,29 @@
     <ul>
     {% for page in site.pages %}
       {% if page.title %}
-      <li>
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </li>
+      <a href="{{ page.url | prepend: site.baseurl }}">
+        <li>
+          {{ page.title }}
+        </li>
+      </a>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+
+  <nav class="mobile-navigation">
+    <span class="icon-menu"></span>
+    <li class="title">
+      <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+    </li>
+    <ul>
+    {% for page in site.pages %}
+      {% if page.title %}
+      <a href="{{ page.url | prepend: site.baseurl }}">
+        <li>
+          {{ page.title }}
+        </li>
+      </a>
       {% endif %}
     {% endfor %}
     </ul>

@@ -70,6 +70,8 @@ p.about {
 
 .clear {
 	clear: both;
+	margin-bottom: 2.5%;
+	box-shadow: 0 2px 5px #616161
 }
 
 .logo {
@@ -136,6 +138,7 @@ time {
 		display: block;
 		min-width: 100%;
 		background-color: $primary-color;
+		box-shadow: 0 2px 5px #616161;
 		a {
 			text-decoration: none;
 			color: white;
@@ -153,4 +156,12 @@ time {
 		min-width: 100%;
 		margin: 0 auto;
 	}
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
 }

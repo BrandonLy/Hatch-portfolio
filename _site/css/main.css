@@ -141,6 +141,24 @@ html, body, .home-card {
   margin-top: 1em;
   float: left; }
 
+@media screen and (max-width: 1080px) {
+  [class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 1em;
+    vertical-align: middle;
+    margin-top: 1em;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+  .copyright {
+    font-size: 1em; } }
 @media screen and (min-width: 1081px) {
   .mobile-navigation {
     display: none; }
@@ -187,7 +205,9 @@ p.about {
   font-size: 1.125rem; }
 
 .clear {
-  clear: both; }
+  clear: both;
+  margin-bottom: 2.5%;
+  box-shadow: 0 2px 5px #616161; }
 
 .logo {
   width: 180px;
@@ -241,7 +261,8 @@ time {
   .mobile-navigation {
     display: block;
     min-width: 100%;
-    background-color: #0971B2; }
+    background-color: #0971B2;
+    box-shadow: 0 2px 5px #616161; }
     .mobile-navigation a {
       text-decoration: none;
       color: white;
@@ -256,3 +277,8 @@ time {
     display: block;
     min-width: 100%;
     margin: 0 auto; } }
+.hide {
+  display: none; }
+
+.show {
+  display: block; }

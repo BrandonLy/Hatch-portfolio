@@ -42,18 +42,6 @@
 	color: white;
 }
 
-.icon-envelop {
-	
-}
-
-.icon-google-plus {
-
-}
-
-.icon-twitter {
-
-}
-
 .icon-menu {
 	color: white;
 }
@@ -61,4 +49,25 @@
 .copyright {
 	margin-top: 1em;
 	float: left;
+}
+
+@media screen and (max-width: 1080px) {
+		[class^="icon-"], [class*=" icon-"] {
+		font-family: 'icomoon';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		font-size: 1em;
+		vertical-align: middle;
+		margin-top: 1em;
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.copyright {
+		font-size: 1em;
+	}
 }

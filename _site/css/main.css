@@ -54,7 +54,8 @@ html, body, .home-card {
 
 @media screen and (max-width: 1080px) {
   .post-list {
-    min-width: 90%; }
+    min-width: 90%;
+    padding-left: 0; }
     .post-list li {
       margin-bottom: 2em;
       margin-top: 2em;
@@ -87,13 +88,19 @@ html, body, .home-card {
   margin: 0 auto; }
 
 @media screen and (max-width: 1080px) {
-  .portfolio-list li {
-    margin: 5% auto;
-    max-width: 100%;
-    display: block;
-    width: 50%; }
-  .portfolio-list a {
-    text-decoration: none; } }
+  .portfolio-list {
+    padding-left: 0;
+    min-width: 100%; }
+    .portfolio-list li {
+      margin: 5% auto;
+      max-width: 100%;
+      display: block;
+      width: 50%; }
+    .portfolio-list a {
+      text-decoration: none; }
+
+  .post-content li {
+    min-width: 80%; } }
 .achievements {
   font-size: 1.2em; }
   .achievements li {
@@ -158,7 +165,10 @@ html, body, .home-card {
     -moz-osx-font-smoothing: grayscale; }
 
   .copyright {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .icon-menu {
+    font-size: 2em; } }
 @media screen and (min-width: 1081px) {
   .mobile-navigation {
     display: none; }
@@ -253,10 +263,16 @@ time {
   .desktop-navigation {
     display: none; }
 
-  .portrait {
-    width: 40%;
-    margin-left: 5%;
-    vertical-align: top; }
+  .home-card, .portrait {
+    margin: 0 auto;
+    min-width: 80%;
+    display: block; }
+
+  .image-link img {
+    max-width: 80%; }
+
+  .home-card {
+    margin-bottom: 2.5%; }
 
   .mobile-navigation {
     display: block;

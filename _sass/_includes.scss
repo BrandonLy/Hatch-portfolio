@@ -12,6 +12,12 @@ $body-font: "proxima-nova", sans-serif;
 	padding: 0;
 	margin: 0;
 }
+
+%mobile-center {
+	margin: 0 auto;
+	width: 90%;
+}
+
 @mixin border-radius($radius) {
 	border-top-left-radius: $radius;
     border-bottom-left-radius: $radius;

@@ -128,10 +128,18 @@ time {
 		display: none;
 	}
 
-	.portrait {
-		width: 40%;
-		margin-left: 5%;
-		vertical-align: top;
+	.home-card, .portrait {
+		margin: 0 auto;
+		min-width: 80%;
+		display: block;
+	}
+
+	.image-link img{
+		max-width: 80%;	
+	}
+
+	.home-card {
+		margin-bottom: 2.5%;
 	}
 
 	.mobile-navigation{

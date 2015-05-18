@@ -33,6 +33,8 @@
 
 @media screen and (max-width: 1080px) {
 	.portfolio-list {
+		padding-left: 0;
+		min-width: 100%;
 		li{
 			margin: 5% auto;
 			max-width: 100%;
@@ -42,5 +44,12 @@
 		a {
 			text-decoration: none;
 		}
+	}
+
+	.post-content {
+		li {
+			min-width: 80%;
+		}
+
 	}
 }
